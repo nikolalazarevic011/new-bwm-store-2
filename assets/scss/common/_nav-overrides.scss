@@ -1,0 +1,13 @@
+// =============================================================================
+// NAVIGATION OVERRIDES
+// =============================================================================
+// Custom overrides for navigation styles from citadel (read-only)
+
+// Subnavigation - increase font size
+.navBar--sub {
+    .navBar-action {
+        font-size: fontSize("largest"); // Options: "smaller", "base", "larger", "largest"
+        // Or use a specific size:
+        // font-size: remCalc(18); // 18px
+    }
+}
