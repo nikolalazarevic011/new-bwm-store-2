@@ -1,0 +1,38 @@
+// =============================================================================
+// CUSTOM THEME OVERRIDES
+// =============================================================================
+// Custom overrides for navigation, product, and breadcrumb styles from citadel (read-only)
+
+// Main navigation - increase font size
+.navPages-action {
+    font-size: remCalc(22) !important; // Adjust this value: 15px was too small, try 16px or 17px
+    // Original was fontSize("smaller") which is ~14-15px
+    // fontSize("base") is typically 16px
+    // fontSize("larger") is typically 18-20px
+}
+
+// Subnavigation - increase font size
+.navBar--sub {
+    .navBar-action {
+        font-size: fontSize("large") !important; // Options: "smaller", "base", "larger", "largest"
+        // Or use a specific size:
+        // font-size: remCalc(18) !important; // 18px
+    }
+}
+
+// Product card title - darker color
+.card-title > a {
+    color: stencilColor("color-textBase") !important; // Dark text color
+    // Alternative options:
+    // color: #333 !important; // Very dark gray
+    // color: #000 !important; // Pure black
+}
+
+// Breadcrumbs - increase font size
+.breadcrumb {
+    font-size: fontSize("smaller") !important; // Original is fontSize("smallest")
+    // Options: "smallest" (original), "smaller", "base", "larger"
+    // Or use a specific size:
+    // font-size: remCalc(13) !important; // 13px
+    // font-size: remCalc(14) !important; // 14px
+}

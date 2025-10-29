@@ -446,13 +446,20 @@
         "show_accept_mastercard": true,
         "show_accept_visa": true,
         "show_quick_payment_buttons": false,
-        "fontSize-root": 16,
-        "color-textSecondary": "#333333",
+        "fontSize-root": 18,
+        "color-textSecondary": "#000000",
         "social_icon_placement_top": true,
         "social_icon_placement_bottom": "bottom_left",
         "paymentbuttons-provider-sorting": [
           "paypal"
-        ]
+        ],
+        "fontSize-h1": 32,
+        "fontSize-h2": 29,
+        "fontSize-h3": 26,
+        "fontSize-h5": 19,
+        "color-textBase": "#000000",
+        "color-textLink": "#000000",
+        "color-textHeading": "#000000"
       }
     },
     {
